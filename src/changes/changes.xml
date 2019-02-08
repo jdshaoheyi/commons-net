@@ -96,7 +96,7 @@ This is mainly a bug-fix release. See further details below.
             MVSFTPEntryParser.preParse - MVS, z/OS - allow for merged Ext/Used fields
             </action>
             <action issue="NET-636" type="fix" dev="sebb">
-            examples should be in org.apache.commons.net subpackage
+            Examples should be in org.apache.commons.net subpackage
             </action>
             <action issue="NET-634" type="add" dev="sebb" due-to="Mauro Molinari">
             Add SIZE command support
