@@ -22,7 +22,7 @@
     <parent>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-parent</artifactId>
-        <version>47</version>
+        <version>48</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>commons-net</groupId>
@@ -180,12 +180,14 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         <!-- Current release -->
         <commons.release.version>3.6</commons.release.version>
         <commons.rc.version>RC1</commons.rc.version>
+        <commons.bc.version>3.6</commons.bc.version>
         <commons.release.desc>(Requires Java ${maven.compiler.target} or later)</commons.release.desc>
 
         <!-- Local version defines -->
         <checkstyle.plugin.version>2.17</checkstyle.plugin.version>
         <checkstyle.tool.version>6.9</checkstyle.tool.version>
         <commons.changes.onlyCurrentVersion>true</commons.changes.onlyCurrentVersion>
+        <japicmp.skip>false</japicmp.skip>
     </properties>
 
     <build>
